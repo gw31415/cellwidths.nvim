@@ -11,7 +11,7 @@ jobs:
         with:
           neovim: true
           version: nightly
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: generate templates
         run: |
           set -eux
